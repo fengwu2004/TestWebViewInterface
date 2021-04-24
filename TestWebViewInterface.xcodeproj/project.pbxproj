@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		84FC4C192633CA64009562CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC4C182633CA64009562CA /* AppDelegate.swift */; };
-		84FC4C1B2633CA64009562CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC4C1A2633CA64009562CA /* SceneDelegate.swift */; };
 		84FC4C1D2633CA64009562CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC4C1C2633CA64009562CA /* ViewController.swift */; };
 		84FC4C202633CA64009562CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FC4C1E2633CA64009562CA /* Main.storyboard */; };
 		84FC4C222633CA65009562CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FC4C212633CA65009562CA /* Assets.xcassets */; };
 		84FC4C252633CA65009562CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FC4C232633CA65009562CA /* LaunchScreen.storyboard */; };
+		84FC4C332633CB22009562CA /* EBWebInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FC4C322633CB22009562CA /* EBWebInterface.m */; };
+		84FC4C382633CBDF009562CA /* EBWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FC4C372633CBDF009562CA /* EBWebView.swift */; };
+		84FC4C422633E06F009562CA /* EBWebInterfaceEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FC4C412633E06F009562CA /* EBWebInterfaceEvent.m */; };
+		84FC4C482633E644009562CA /* EBWebInterfaceEvent1001.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FC4C472633E644009562CA /* EBWebInterfaceEvent1001.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84FC4C152633CA64009562CA /* TestWebViewInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWebViewInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FC4C182633CA64009562CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84FC4C1A2633CA64009562CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84FC4C1C2633CA64009562CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84FC4C1F2633CA64009562CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84FC4C212633CA65009562CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FC4C242633CA65009562CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FC4C262633CA65009562CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FC4C302633CB22009562CA /* TestWebViewInterface-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestWebViewInterface-Bridging-Header.h"; sourceTree = "<group>"; };
+		84FC4C312633CB22009562CA /* EBWebInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBWebInterface.h; sourceTree = "<group>"; };
+		84FC4C322633CB22009562CA /* EBWebInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBWebInterface.m; sourceTree = "<group>"; };
+		84FC4C372633CBDF009562CA /* EBWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EBWebView.swift; sourceTree = "<group>"; };
+		84FC4C402633E06F009562CA /* EBWebInterfaceEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBWebInterfaceEvent.h; sourceTree = "<group>"; };
+		84FC4C412633E06F009562CA /* EBWebInterfaceEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBWebInterfaceEvent.m; sourceTree = "<group>"; };
+		84FC4C462633E644009562CA /* EBWebInterfaceEvent1001.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBWebInterfaceEvent1001.h; sourceTree = "<group>"; };
+		84FC4C472633E644009562CA /* EBWebInterfaceEvent1001.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBWebInterfaceEvent1001.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,20 @@
 		84FC4C172633CA64009562CA /* TestWebViewInterface */ = {
 			isa = PBXGroup;
 			children = (
+				84FC4C312633CB22009562CA /* EBWebInterface.h */,
+				84FC4C322633CB22009562CA /* EBWebInterface.m */,
+				84FC4C402633E06F009562CA /* EBWebInterfaceEvent.h */,
+				84FC4C412633E06F009562CA /* EBWebInterfaceEvent.m */,
+				84FC4C462633E644009562CA /* EBWebInterfaceEvent1001.h */,
+				84FC4C472633E644009562CA /* EBWebInterfaceEvent1001.m */,
 				84FC4C182633CA64009562CA /* AppDelegate.swift */,
-				84FC4C1A2633CA64009562CA /* SceneDelegate.swift */,
 				84FC4C1C2633CA64009562CA /* ViewController.swift */,
 				84FC4C1E2633CA64009562CA /* Main.storyboard */,
 				84FC4C212633CA65009562CA /* Assets.xcassets */,
 				84FC4C232633CA65009562CA /* LaunchScreen.storyboard */,
 				84FC4C262633CA65009562CA /* Info.plist */,
+				84FC4C302633CB22009562CA /* TestWebViewInterface-Bridging-Header.h */,
+				84FC4C372633CBDF009562CA /* EBWebView.swift */,
 			);
 			path = TestWebViewInterface;
 			sourceTree = "<group>";
@@ -98,6 +115,7 @@
 				TargetAttributes = {
 					84FC4C142633CA64009562CA = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -138,8 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84FC4C1D2633CA64009562CA /* ViewController.swift in Sources */,
+				84FC4C332633CB22009562CA /* EBWebInterface.m in Sources */,
+				84FC4C482633E644009562CA /* EBWebInterfaceEvent1001.m in Sources */,
+				84FC4C422633E06F009562CA /* EBWebInterfaceEvent.m in Sources */,
+				84FC4C382633CBDF009562CA /* EBWebView.swift in Sources */,
 				84FC4C192633CA64009562CA /* AppDelegate.swift in Sources */,
-				84FC4C1B2633CA64009562CA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,15 +307,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M58B755G84;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = TestWebViewInterface/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.we.TestWebViewInterface;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestWebViewInterface/TestWebViewInterface-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,15 +331,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M58B755G84;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = TestWebViewInterface/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.we.TestWebViewInterface;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestWebViewInterface/TestWebViewInterface-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

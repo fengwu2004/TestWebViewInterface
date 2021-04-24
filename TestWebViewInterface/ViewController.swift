@@ -9,11 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var _webViw:EBWebView!
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        _webViw = EBWebView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
+        
+        self.view.addSubview(_webViw)
+        
+        _webViw.load(url: "http://192.168.8.101:8080/")
     }
-
-
 }
 

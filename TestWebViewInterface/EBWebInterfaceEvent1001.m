@@ -15,9 +15,11 @@
     
     [self doSomeHttpRquest:^{
         
-        wealSelf.result = @{@"success":@(1), @"value":@"我是xxx"};
+        __strong EBWebInterfaceEvent1001 *strongSelf = wealSelf;
         
-        [wealSelf finish];
+        strongSelf.result = @{@"success":@(1), @"value":@"我是xxx"};
+        
+        [strongSelf finish];
     }];
 }
 

@@ -33,6 +33,11 @@ class EBWebView: UIView {
         }
     }
     
+    required init?(coder: NSCoder) {
+        
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override init(frame: CGRect) {
         
         super.init(frame: frame)
@@ -77,11 +82,6 @@ class EBWebView: UIView {
         webview.delegate = self
         
         return webview
-    }
-    
-    required init?(coder: NSCoder) {
-        
-        fatalError("init(coder:) has not been implemented")
     }
     
     @objc func evaluateJs(_ js:String) -> Void {

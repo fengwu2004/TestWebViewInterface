@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         
         self.view.addSubview(_webViw)
         
-        _webViw.load(url: "http://192.168.8.101:8080/")
+        _webViw.load(url: "http://10.90.25.46:8087/")
     }
 }
 

@@ -1,0 +1,6 @@
+framework module BaseNet {
+  umbrella header "BaseNet.h"
+
+  export *
+  module * { export * }
+}
